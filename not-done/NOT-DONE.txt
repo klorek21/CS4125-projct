@@ -1,0 +1,4 @@
+Calculator itself have not been fully implemented. In this folder (not-done) you will find
+pieces of code that show the besic idea of what exactly calculator meant to do as well as
+discount decorator along with discounts themselves. Myself (Kamil) and Amr have been unable
+to implement these parts fully.
