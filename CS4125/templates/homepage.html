@@ -6,6 +6,15 @@
 {% if user.is_authenticated %}
   Hi {{ user.username }}!
   <p><a href="{% url 'logout' %}">Log Out</a></p>
+    <!--
+    EXTEND THIS AS IT IS THE HOMEPAGE
+
+    Link to calculator -> calculator.html
+    To figure out -> How to create html and where to put Python calculator code
+
+    Link to subscripion -> subscription.html
+    To figure out -> How to create html and where to put Python subscription code
+    -->
 {% else %}
   <p>You are not logged in</p>
   <a href="{% url 'login' %}">Log In</a>
